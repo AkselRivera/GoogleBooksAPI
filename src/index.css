@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.fondo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  padding: 2rem;
+
+  background-image: url('/src/img/background.svg');
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.cardImg{
+  max-height: 50vh;
+}
+
+.search{
+  width: 20%;
+  align-self: center;
+  /* border:1px solid rosybrown; */
+}
+
+.results{
+  background-color: #f7a2a2;
+}
+
+.navbar{
+  background-color: #fbc8c8 !important;
+  
+}
+
+.title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+.bookImg{
+  width: 30%;
+}
+
+.logo{
+  text-decoration: none;
+}
